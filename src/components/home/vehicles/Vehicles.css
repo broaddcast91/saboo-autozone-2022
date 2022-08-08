@@ -1,0 +1,12 @@
+.c09ew342{
+    content: '';
+    height: 2px;
+    width: 60px;
+    background-color: #faa730;
+    margin: 0 auto;
+}
+
+.box-hover:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .3s ease-in-out;
+}

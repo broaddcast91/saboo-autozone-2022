@@ -1,0 +1,76 @@
+.footer > address > p {
+    background-color: #9f2a2c;
+    max-width: 254px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+.footer > address > p > a{
+    color: #fff;
+    text-decoration: none;
+}
+.webintern-footer-list{
+    padding: 0%;
+}
+.webintern-footer-list > li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    opacity: 0.8;
+    letter-spacing: 0.2px;
+}
+
+.c09ew341{
+    content: '';
+    height: 2px;
+    width: 40px;
+    background-color: #faa730;
+}
+
+.tt-subscribe > input{
+    width: 100%;
+    font-size: 15px;
+    color: #838486;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 70px;
+    border: 1px solid #9f2a2c;
+    border-right: none;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.tt-subscribe > button{
+    width: 52px;
+    height: 46px;
+    border-radius: 0;
+    background-color:#9f2a2c;
+}
+
+.tt-socail a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #9f2a2c;
+    text-align: center;
+    border: 2px solid #9f2a2c;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.tt-socail a:hover {
+    border: 2px solid #f9a730;
+    background-color: #f9a730;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 992px) {
+    .footer-text{
+        text-align: center !important;
+    }
+}
