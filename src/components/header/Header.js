@@ -155,7 +155,7 @@ const MainHeader = () => {
   function awardsClick() {
     navigate("/awards");
     window.location.reload();
-  } 
+  }
 
   const [navbar, setNavbar] = useState(false);
 

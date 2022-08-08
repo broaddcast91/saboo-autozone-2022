@@ -145,7 +145,7 @@ const ContactForm = () => {
       } else {
         setButtonloader(true);
         await axios
-          .post("https://broaddcast.com/autozone/api/contact", user)
+          .post("https://saboogroups.com/autozone/api/contact", user)
           .then(function (response) {
             navigate("/thank-you");
           })

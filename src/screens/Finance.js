@@ -162,7 +162,7 @@ const FinanceForm = () => {
       } else {
         setButtonloader(true);
         await axios
-          .post("https://broaddcast.com/autozone/api/finance", user)
+          .post("https://saboogroups.com/autozone/api/finance", user)
           .then(function (response) {
             navigate("/thank-you");
           })

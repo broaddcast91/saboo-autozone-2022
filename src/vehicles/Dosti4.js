@@ -175,7 +175,7 @@ const TitleWithImg = () => {
 const Specsi3 = () => {
   return (
     <>
-      <h4>Ashok Leyland Bada Dost i3 BS6 Specifications and Features</h4>
+      <h4>Ashok Leyland Bada Dost i4 BS6 Specifications and Features</h4>
       <div className="row">
         <div className="col-lg-2 col-sm-4 mb-3">
           <div
@@ -354,15 +354,15 @@ const VehicleForm = () => {
       if (!pattern.test(mobile)) {
         toast.error("Please enter a valid phone number");
       } else {
-      setButtonclick(true);
-      await axios
-        .post("https://broaddcast.com/autozone/api/on-road-price", user)
-        .then(function (response) {
-          navigate("/thank-you");
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
+        setButtonclick(true);
+        await axios
+          .post("https://saboogroups.com/autozone/api/on-road-price", user)
+          .then(function (response) {
+            navigate("/thank-you");
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
       }
     }
   };
@@ -425,6 +425,7 @@ const VehicleForm = () => {
                   <option>Select</option>
                   <option value="Dost i4">Dost i4</option>
                   <option value="Dost i3">Dost i3</option>
+                  <option value="Dost i3">Dost i3+</option>
                   <option value="Dost Plus">Dost+</option>
                   <option value="Dost LiTE">Dost LiTE</option>
                   <option value="Dost Strong">Dost Strong</option>

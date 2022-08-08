@@ -83,17 +83,17 @@ const RequestCall = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
 
-    if(user.name === ''){
-      toast.error('Enter Name')
+    if (user.name === "") {
+      toast.error("Enter Name");
     }
-    if(user.mobile === ''){
-      toast.error('Enter Mobile')
+    if (user.mobile === "") {
+      toast.error("Enter Mobile");
     }
 
     if (user.name !== "" && user.mobile !== "") {
       setLoading(true);
       await axios
-        .post("https://broaddcast.com/autozone/api/request-call", user)
+        .post("https://saboogroups.com/autozone/api/request-call", user)
         .then(function (response) {
           navigate("thank-you");
           // console.log(response);

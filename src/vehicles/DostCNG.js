@@ -83,8 +83,8 @@ const DostCNGBanner = () => {
               </Link>
             </li>
             <li className="breadcrumb-item active" aria-current="page">
-              Light Commercial Vehicles / Ashok Leyland Bada Dost i4 on road
-              price in hyderabad
+              Light Commercial Vehicles / Ashok Leyland Dost CNG on road price
+              in hyderabad
             </li>
           </ol>
         </div>
@@ -172,7 +172,7 @@ const TitleWithImg = () => {
 const Specsi3 = () => {
   return (
     <>
-      <h4>Ashok Leyland Bada Dost i3 BS6 Specifications and Features</h4>
+      <h4>Ashok Leyland Dost CNG BS6 Specifications and Features</h4>
       <div className="row">
         <div className="col-lg-2 col-sm-4 mb-3">
           <div
@@ -353,7 +353,7 @@ const VehicleForm = () => {
       } else {
         setButtonclick(true);
         await axios
-          .post("https://broaddcast.com/autozone/api/on-road-price", user)
+          .post("https://saboogroups.com/autozone/api/on-road-price", user)
           .then(function (response) {
             navigate("/thank-you");
           })
@@ -368,7 +368,7 @@ const VehicleForm = () => {
     <div className="container shadow rounded-3 border my-5">
       <div className="row p-3 align-items-center">
         <div className="col-lg-6 col-md-12 col-12 mt-3">
-          <h3>Get On Road Price of Bada Dost i4</h3>
+          <h3>Get On Road Price of Dost Dost CNG</h3>
           <small>
             Please fill out the form and we'll get back to you right away !
           </small>
@@ -422,6 +422,7 @@ const VehicleForm = () => {
                   <option>Select</option>
                   <option value="Dost i4">Dost i4</option>
                   <option value="Dost i3">Dost i3</option>
+                  <option value="Dost i3+">Dost i3+</option>
                   <option value="Dost Plus">Dost+</option>
                   <option value="Dost Strong">Dost Strong</option>
                   <option value="Dost CNG">Dost CNG</option>
