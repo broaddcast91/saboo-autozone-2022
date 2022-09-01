@@ -57,8 +57,13 @@ function Footer() {
               </h4>
               <ul className="webintern-footer-list">
                 <li>
-                  <Link to="/bada-dost-i4-on-road-price-in-hyderabad">
-                    <FaAngleDoubleRight /> Ashok Leyland BADA DOST i4
+                  <Link to="/bada-dost-i1-on-road-price-in-hyderabad">
+                    <FaAngleDoubleRight /> Ashok Leyland BADA DOST i1
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/bada-dost-i2-on-road-price-in-hyderabad">
+                    <FaAngleDoubleRight /> Ashok Leyland BADA DOST i2
                   </Link>
                 </li>
                 <li>
@@ -72,6 +77,11 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/bada-dost-i4-on-road-price-in-hyderabad">
+                    <FaAngleDoubleRight /> Ashok Leyland BADA DOST i4
+                  </Link>
+                </li>
+                <li>
                   <Link to="/dost-plus-on-road-price-in-hyderabad">
                     <FaAngleDoubleRight /> Ashok Leyland DOST+
                   </Link>
@@ -79,11 +89,6 @@ function Footer() {
                 <li>
                   <Link to="/dost-strong-on-road-price-in-hyderabad">
                     <FaAngleDoubleRight /> Ashok Leyland DOST STRONG
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/dost-lite-on-road-price-in-hyderabad">
-                    <FaAngleDoubleRight /> Ashok Leyland DOST LiTE
                   </Link>
                 </li>
               </ul>
@@ -96,6 +101,11 @@ function Footer() {
                 <div className="c09ew341 mt-1 mb-3"></div>
               </h4>
               <ul className="webintern-footer-list">
+                <li>
+                  <Link to="/dost-lite-on-road-price-in-hyderabad">
+                    <FaAngleDoubleRight /> Ashok Leyland DOST LiTE
+                  </Link>
+                </li>
                 <li>
                   <Link to="/dost-cng-on-road-price-in-hyderabad">
                     <FaAngleDoubleRight /> Ashok Leyland DOST CNG

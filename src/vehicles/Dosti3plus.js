@@ -422,6 +422,8 @@ const VehicleForm = () => {
                   onChange={(e) => onInputChange(e)}
                 >
                   <option>Select</option>
+                  <option value="Dost i1">Dost i4</option>
+                  <option value="Dost i2">Dost i3</option>
                   <option value="Dost i4">Dost i4</option>
                   <option value="Dost i3">Dost i3</option>
 

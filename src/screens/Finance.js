@@ -272,8 +272,11 @@ const FinanceForm = () => {
                   onChange={(e) => onInputChange(e)}
                 >
                   <option>Select</option>
-                  <option value="Dost i4">Dost i4</option>
+                  <option value="Dost i3">Dost i1</option>
+                  <option value="Dost i3">Dost i2</option>
                   <option value="Dost i3">Dost i3</option>
+                  <option value="Dost i3">Dost i3+</option>
+                  <option value="Dost i4">Dost i4</option>
                   <option value="Dost+">Dost+</option>
                   <option value="Dost LiTE">Dost LiTE</option>
                   <option value="Dost Strong">Dost Strong</option>

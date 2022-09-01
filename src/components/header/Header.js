@@ -211,18 +211,28 @@ const MainHeader = () => {
                           <div className="header-dropdown second">
                             <ul className="p-0">
                               <li className="header-dropdown-link">
-                                <Link to="/bada-dost-i4-on-road-price-in-hyderabad">
-                                  Ashok Leyland Bada Dost i4
+                                <Link to="/bada-dost-i1-on-road-price-in-hyderabad">
+                                  Bada Dost i1
+                                </Link>
+                              </li>
+                              <li className="header-dropdown-link">
+                                <Link to="/bada-dost-i2-on-road-price-in-hyderabad">
+                                  Bada Dost i2
                                 </Link>
                               </li>
                               <li className="header-dropdown-link">
                                 <Link to="/bada-dost-i3-on-road-price-in-hyderabad">
-                                  Ashok Leyland Bada Dost i3
+                                  Bada Dost i3
                                 </Link>
                               </li>
                               <li className="header-dropdown-link">
                                 <Link to="/bada-dost-i3-plus-on-road-price-in-hyderabad">
-                                  Ashok Leyland Bada Dost i3+
+                                  Bada Dost i3+
+                                </Link>
+                              </li>
+                              <li className="header-dropdown-link">
+                                <Link to="/bada-dost-i4-on-road-price-in-hyderabad">
+                                  Bada Dost i4
                                 </Link>
                               </li>
                               <div className="arrow"></div>
@@ -258,12 +268,12 @@ const MainHeader = () => {
                             <ul className="p-0">
                               <li className="header-dropdown-link">
                                 <Link to="/partner-4-tyre-commercial-truck-on-road-price-in-hyderabad">
-                                  Ashok Leyland Partner 4-Tyre
+                                  Partner 4-Tyre
                                 </Link>
                               </li>
                               <li className="header-dropdown-link">
                                 <Link to="/partner-6-tyre-commercial-truck-on-road-price-in-hyderabad">
-                                  Ashok Leyland Partner 6-Tyre
+                                  Partner 6-Tyre
                                 </Link>
                               </li>
                               <div className="arrow"></div>

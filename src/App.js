@@ -49,6 +49,8 @@ import Partner6Tyre from "./vehicles/Partner6Tyre";
 import MiTRSchoolBus from "./vehicles/MiTRSchoolBus";
 import MiTRStaffBus from "./vehicles/MiTRStaffBus";
 import ThankYou from "./screens/ThankYou";
+import Dosti1 from "./vehicles/Dosti1";
+import Dosti2 from "./vehicles/Dosti2";
 
 const ScrollTop = () => {
   const { pathname } = useLocation();
@@ -194,8 +196,12 @@ function App() {
             element={<Partner />}
           />
           <Route
-            path="bada-dost-i4-on-road-price-in-hyderabad"
-            element={<Dosti4 />}
+            path="bada-dost-i1-on-road-price-in-hyderabad"
+            element={<Dosti1 />}
+          />
+          <Route
+            path="bada-dost-i2-on-road-price-in-hyderabad"
+            element={<Dosti2 />}
           />
           <Route
             path="bada-dost-i3-on-road-price-in-hyderabad"
@@ -204,6 +210,10 @@ function App() {
           <Route
             path="bada-dost-i3-plus-on-road-price-in-hyderabad"
             element={<Dosti3plus />}
+          />
+          <Route
+            path="bada-dost-i4-on-road-price-in-hyderabad"
+            element={<Dosti4 />}
           />
           <Route
             path="dost-plus-on-road-price-in-hyderabad"
