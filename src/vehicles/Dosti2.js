@@ -73,7 +73,7 @@ const DostBanner = () => {
     <>
       <img
         className="mw-100 w-100"
-        src={require("../img/dost-banner.webp")}
+        src={require("../img/BADA-DOST/Saboo Autozone Bada Dost i2 Product Banner.webp")}
         alt="dost-banner"
       />
       <div className="container-fluid bg-white py-3 shadow-sm">
@@ -108,7 +108,9 @@ const TitleWithImg = () => {
         </div>
         <div className="col-lg-6 mb-3 ps-4">
           <h5>Ashok Leyland BADA DOST i2 on road price in Hyderabad</h5>
-          <h5>₹ 8.75 - ₹ 8.96 Lakh*</h5>
+          <div className="font-light text-danger">
+            <h5> Coming Soon*</h5>
+          </div>
           <small className="text-danger">
             *Prices are subjected to change at anytime, final price will be
             shared at showroom.
@@ -214,7 +216,7 @@ const Specsi2 = () => {
                   width={54}
                 />
                 <small className="text-muted">GVW</small>
-                <span> 2990 kg</span>
+                <span> 2880 kg</span>
               </div>
             </div>
           </div>

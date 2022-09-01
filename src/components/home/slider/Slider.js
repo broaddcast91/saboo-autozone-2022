@@ -17,26 +17,34 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 const banners = [
   {
     id: 1,
-    banner_img: require("../../../img/autozone-bada-coming-soon.webp"),
+    banner_img: require("../../../img/BADA-DOST/Saboo Autozone Bada Dost i1 Home Banner.webp"),
   },
   {
     id: 2,
+    banner_img: require("../../../img/BADA-DOST/Saboo Autozone Bada Dost i2 Home Banner.webp"),
+  },
+  // {
+  //   id: 3,
+  //   banner_img: require("../../../img/autozone-bada-coming-soon.webp"),
+  // },
+  {
+    id: 3,
     banner_img: require("../../../img/banner1.webp"),
   },
   {
-    id: 3,
+    id: 4,
     banner_img: require("../../../img/banner2.webp"),
   },
   {
-    id: 4,
+    id: 5,
     banner_img: require("../../../img/banner3.webp"),
   },
   {
-    id: 5,
+    id: 6,
     banner_img: require("../../../img/banner4.webp"),
   },
   {
-    id: 6,
+    id: 7,
     banner_img: require("../../../img/banner5.webp"),
   },
 ];

@@ -9,7 +9,7 @@ const vehicles = [
     to: "bada-dost-i1-on-road-price-in-hyderabad",
     payload: "1250 kg",
     gvw: "2652",
-    power: "52",
+    power: "70",
     engine: "1478",
   },
   {
@@ -18,7 +18,7 @@ const vehicles = [
     to: "bada-dost-i2-on-road-price-in-hyderabad",
     payload: "1425 kg",
     gvw: "2880",
-    power: "52",
+    power: "70",
     engine: "1478",
   },
 
@@ -28,7 +28,7 @@ const vehicles = [
     to: "bada-dost-i3-on-road-price-in-hyderabad",
     payload: "1400 kg",
     gvw: "2990",
-    power: "59.6",
+    power: "80",
     engine: "1478",
   },
   {
@@ -37,7 +37,7 @@ const vehicles = [
     to: "bada-dost-i3-plus-on-road-price-in-hyderabad",
     payload: "1370 kg",
     gvw: "2990",
-    power: "59.6",
+    power: "80",
     engine: "1478",
   },
   {
@@ -46,7 +46,7 @@ const vehicles = [
     to: "bada-dost-i4-on-road-price-in-hyderabad",
     payload: "1860 kg",
     gvw: "3490",
-    power: "59.6",
+    power: "80",
     engine: "1478",
   },
   {

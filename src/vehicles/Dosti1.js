@@ -73,7 +73,7 @@ const DostBanner = () => {
     <>
       <img
         className="mw-100 w-100"
-        src={require("../img/dost-banner.webp")}
+        src={require("../img/BADA-DOST/Saboo Autozone Bada Dost i1 Product Banner.webp")}
         alt="dost-banner"
       />
       <div className="container-fluid bg-white py-3 shadow-sm">
@@ -108,7 +108,10 @@ const TitleWithImg = () => {
         </div>
         <div className="col-lg-6 mb-3 ps-4">
           <h5>Ashok Leyland BADA DOST i1 on road price in Hyderabad</h5>
-          <h5>₹ 8.75 - ₹ 8.96 Lakh*</h5>
+          <div className="font-light text-danger">
+            <h5> Coming Soon*</h5>
+          </div>
+
           <small className="text-danger">
             *Prices are subjected to change at anytime, final price will be
             shared at showroom.
@@ -214,7 +217,7 @@ const Specsi1 = () => {
                   width={54}
                 />
                 <small className="text-muted">GVW</small>
-                <span> 2990 kg</span>
+                <span> 2652 kg</span>
               </div>
             </div>
           </div>
@@ -235,7 +238,7 @@ const Specsi1 = () => {
                   width={54}
                 />
                 <small className="text-muted">WHEEL BASE</small>
-                <span> 2590 mm</span>
+                <span> 2350 mm</span>
               </div>
             </div>
           </div>
@@ -298,7 +301,7 @@ const Specsi1 = () => {
                   width={54}
                 />
                 <small className="text-muted">PAYLOAD</small>
-                <span> 1400 kg</span>
+                <span> 1250 kg</span>
               </div>
             </div>
           </div>
@@ -566,10 +569,6 @@ const TechSpecs = () => {
                         <td>Top Speed (in mm) : </td>
                         <td>80 kmph</td>
                       </tr>
-                      <tr>
-                        <td>Gradeability (Re-Start) : </td>
-                        <td>~28.3%</td>
-                      </tr>
                     </tbody>
                   </Table>
                 </Accordion.Body>
@@ -582,7 +581,7 @@ const TechSpecs = () => {
                       <tr>
                         <td>Clutch : </td>
                         <td>
-                          240 mm, Single, Diaphragm push type, Cable operated
+                          215 mm, Single, Diaphragm push type, Cable operated
                         </td>
                       </tr>
                     </tbody>
@@ -598,12 +597,12 @@ const TechSpecs = () => {
                       <tr>
                         <td>Gear Box : </td>
                         <td>
-                          Fully synchronized 5 Speed, Manual with Cable Shift
+                          Fully synchronized 5 Speed, Manual with Sliding Mesh
                         </td>
                       </tr>
                       <tr>
                         <td>PTO Provision : </td>
-                        <td>Yes</td>
+                        <td>No</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -617,7 +616,7 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Type : </td>
-                        <td>Power Assisted, Tiltable Column</td>
+                        <td>Power Assisted</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -631,7 +630,7 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Type : </td>
-                        <td>Hydraulic Vacuum assisted brakes</td>
+                        <td>Hydraulic Vacuum Assisted Brakes</td>
                       </tr>
                       <tr>
                         <td>Front : </td>
@@ -653,11 +652,11 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Type : </td>
-                        <td>Over-slung Semi-elliptic (3+3 Leaves) – 2 Stage</td>
+                        <td>Over-slung Semi-elliptic</td>
                       </tr>
                       <tr>
                         <td>Front : </td>
-                        <td>Over-slung Parabolic (3 Leaves) – 2 Stage</td>
+                        <td>Over-slung Parabolic</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -671,7 +670,7 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Tyres : </td>
-                        <td>215/75 R15 LT (Tubeless)</td>
+                        <td>185 R14 LT (Tubeless)</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -685,11 +684,11 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Gross Vehicle Weight (GVW)in kg's : </td>
-                        <td>2990</td>
+                        <td>2652</td>
                       </tr>
                       <tr>
                         <td>Payload (FSD LS variant)in kg's : </td>
-                        <td>1400</td>
+                        <td>1250</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -733,30 +732,27 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Wheelbase (in mm) : </td>
-                        <td>2590</td>
+                        <td>2350</td>
                       </tr>
                       <tr>
                         <td>Overall length (in mm) : </td>
-                        <td>4935</td>
+                        <td>4671</td>
                       </tr>
                       <tr>
                         <td>Overall width (in mm) : </td>
-                        <td>1842</td>
+                        <td>1793</td>
                       </tr>
                       <tr>
                         <td>Overall Height (in mm) : </td>
-                        <td>2037</td>
+                        <td>2018</td>
                       </tr>
                       <tr>
                         <td>Load body dimension (FSD) – L x B x H : </td>
-                        <td>
-                          2860 x 1750 x 441 in mm | 9 ft 5 in x 5 ft 9 in x 1 ft
-                          5 in
-                        </td>
+                        <td>2596 x 1750 x 440 in mm | 8.5 x 5.7 x 1.4 ft</td>
                       </tr>
                       <tr>
                         <td>Loading platform height :</td>
-                        <td>920 mm (3 Feet)</td>
+                        <td>810 mm (2.7 Feet)</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -770,11 +766,11 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Standard Bodies : </td>
-                        <td>CBC, FSD</td>
+                        <td>FSD</td>
                       </tr>
                       <tr>
                         <td>Other Bodies : </td>
-                        <td>HSD, Container, Reefer body, Refuse collection</td>
+                        <td>-</td>
                       </tr>
                     </tbody>
                   </Table>
