@@ -237,7 +237,7 @@ const Specsi2 = () => {
                   width={54}
                 />
                 <small className="text-muted">WHEEL BASE</small>
-                <span> 2590 mm</span>
+                <span> 2510 mm</span>
               </div>
             </div>
           </div>
@@ -300,7 +300,7 @@ const Specsi2 = () => {
                   width={54}
                 />
                 <small className="text-muted">PAYLOAD</small>
-                <span> 1400 kg</span>
+                <span> 1425 kg</span>
               </div>
             </div>
           </div>
@@ -568,10 +568,6 @@ const TechSpecs = () => {
                         <td>Top Speed (in mm) : </td>
                         <td>80 kmph</td>
                       </tr>
-                      <tr>
-                        <td>Gradeability (Re-Start) : </td>
-                        <td>~28.3%</td>
-                      </tr>
                     </tbody>
                   </Table>
                 </Accordion.Body>
@@ -600,7 +596,7 @@ const TechSpecs = () => {
                       <tr>
                         <td>Gear Box : </td>
                         <td>
-                          Fully synchronized 5 Speed, Manual with Cable Shift
+                          Fully synchronized 5 Speed, Manual with Sliding Mesh
                         </td>
                       </tr>
                       <tr>
@@ -619,7 +615,7 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Type : </td>
-                        <td>Power Assisted, Tiltable Column</td>
+                        <td>Power Assisted</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -637,7 +633,7 @@ const TechSpecs = () => {
                       </tr>
                       <tr>
                         <td>Front : </td>
-                        <td>Ventilated Discs</td>
+                        <td>Disc</td>
                       </tr>
                       <tr>
                         <td>Rear :</td>
@@ -655,11 +651,11 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Type : </td>
-                        <td>Over-slung Semi-elliptic (3+3 Leaves) – 2 Stage</td>
+                        <td>Over slung Parabolic</td>
                       </tr>
                       <tr>
                         <td>Front : </td>
-                        <td>Over-slung Parabolic (3 Leaves) – 2 Stage</td>
+                        <td>Over slung Semi Elliptic -2 Stage</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -673,7 +669,7 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Tyres : </td>
-                        <td>215/75 R15 LT (Tubeless)</td>
+                        <td>195 R15 LT (Tubeless)</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -687,11 +683,11 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Gross Vehicle Weight (GVW)in kg's : </td>
-                        <td>2990</td>
+                        <td>2880</td>
                       </tr>
                       <tr>
                         <td>Payload (FSD LS variant)in kg's : </td>
-                        <td>1400</td>
+                        <td>1425</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -735,11 +731,11 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Wheelbase (in mm) : </td>
-                        <td>2590</td>
+                        <td>2510</td>
                       </tr>
                       <tr>
                         <td>Overall length (in mm) : </td>
-                        <td>4935</td>
+                        <td>4818</td>
                       </tr>
                       <tr>
                         <td>Overall width (in mm) : </td>
@@ -747,14 +743,11 @@ const TechSpecs = () => {
                       </tr>
                       <tr>
                         <td>Overall Height (in mm) : </td>
-                        <td>2037</td>
+                        <td>2056</td>
                       </tr>
                       <tr>
                         <td>Load body dimension (FSD) – L x B x H : </td>
-                        <td>
-                          2860 x 1750 x 441 in mm | 9 ft 5 in x 5 ft 9 in x 1 ft
-                          5 in
-                        </td>
+                        <td>2745 x 1750 x 440 in mm | 9.0 x 5.7 x 1.4</td>
                       </tr>
                       <tr>
                         <td>Loading platform height :</td>
@@ -772,11 +765,11 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Standard Bodies : </td>
-                        <td>CBC, FSD</td>
+                        <td> FSD</td>
                       </tr>
                       <tr>
                         <td>Other Bodies : </td>
-                        <td>HSD, Container, Reefer body, Refuse collection</td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </Table>
