@@ -128,7 +128,7 @@ const TitleWithImg = () => {
               ? "अशोक लीलैंड दोस्त प्लस की हैदराबाद में कीमत"
               : "Ashok Leyland DOST Plus on road price in Hyderabad"}
           </h5>
-          <h5>₹ 7.47 - ₹ 7.67 Lakh*</h5>
+          <h5>₹ 7.71 - ₹ 8.39 Lakh*</h5>
           <small className="text-danger">
             *
             {language === "2"

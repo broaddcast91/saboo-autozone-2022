@@ -108,7 +108,7 @@ const TitleWithImg = () => {
         </div>
         <div className="col-lg-6 mb-3 ps-4">
           <h5>Ashok Leyland DOST LiTE on road price in Hyderabad</h5>
-          <h5>₹ 7.10 - 7.30 Lakh*</h5>
+          <h5>₹ 7.17 - 7.70 Lakh*</h5>
           <small className="text-danger">
             *Prices are subjected to change at anytime, final price will be
             shared at showroom.

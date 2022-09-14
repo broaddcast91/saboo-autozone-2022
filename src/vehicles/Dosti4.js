@@ -108,7 +108,7 @@ const TitleWithImg = () => {
         </div>
         <div className="col-lg-6 mb-3 ps-4">
           <h4>Ashok Leyland BADA DOST i4 On Road Price In Hyderabad</h4>
-          <h5>₹ 8.52 - ₹ 8.72 Lakh*</h5>
+          <h5>₹ 9.08 - ₹ 9.53 Lakh*</h5>
           <small className="text-danger">
             *Prices are subjected to change at anytime, final price will be
             shared at showroom.
