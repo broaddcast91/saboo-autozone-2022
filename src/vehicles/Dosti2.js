@@ -111,7 +111,7 @@ const TitleWithImg = () => {
           <div className='font-light text-danger'>
             <h5>
               {' '}
-              Coming Soon<sup>*</sup>
+              Starting from ₹ 8.63 Lakh<sup>*</sup>
             </h5>
           </div>
           <small className='text-danger'>

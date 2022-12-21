@@ -109,10 +109,10 @@ const TitleWithImg = () => {
         <div className='col-lg-6 mb-3 ps-4'>
           <h4>Ashok Leyland BADA DOST i1 on road price in Hyderabad</h4>
           <div className='font-light text-danger'>
-            <h5>
+            {/* <h5>
               {' '}
               Coming Soon<sup>*</sup>
-            </h5>
+            </h5> */}
           </div>
 
           <small className='text-danger'>
