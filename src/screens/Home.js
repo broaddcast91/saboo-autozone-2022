@@ -53,7 +53,7 @@ function Home() {
           content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-home.jpg'
         />
       </Helmet>
-      <Confetti />
+      {/* <Confetti /> */}
       <Slider />
       <Product />
       <VehiclesList />
